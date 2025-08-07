@@ -24,7 +24,7 @@ public class TimeServlet extends ThymeleafServlet {
         } else {
             timezone = timezone.trim().replace(" ", "+");
             Cookie timezoneCookie = new Cookie("lastTimezone", timezone);
-            timezoneCookie.setMaxAge(30 * 24 * 60 * 60); // 30 днів
+            timezoneCookie.setMaxAge(30 * 24 * 60 * 60);
             resp.addCookie(timezoneCookie);
         }
         
