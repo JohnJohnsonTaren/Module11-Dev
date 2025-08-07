@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="servlet.TimeServletTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-07T15:40:26.914Z" hostname="TaReN" time="0.981">
+  <properties/>
+  <testcase name="testDoGetWithoutTimezoneButWithCookie()" classname="servlet.TimeServletTest" time="0.939"/>
+  <testcase name="testDoGetWithoutTimezoneAndNoCookie()" classname="servlet.TimeServletTest" time="0.015"/>
+  <testcase name="testDoGetWithTimezone()" classname="servlet.TimeServletTest" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/den/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.10/90ed94ac044ea8953b224304c762316e91fd6b31/byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
